@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/workspaces/go-fiber-sqlc'
+read -p "Enter migration name:" name; \
+	migrate create -ext sql -dir db/migrations -seq $name 
+make: Leaving directory '/workspaces/go-fiber-sqlc'
+ 

@@ -1,0 +1,273 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun 30 07:58:24 2022
+
+# Variables
+
+# environment
+GO111MODULE = on
+# environment
+LC_ALL = C
+# environment
+VSCODE_CWD = /vscode/bin/linux-x64/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+GIT_COMMITTER_NAME = GitHub
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+GOPATH = /go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /workspaces/go-fiber-sqlc
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = 32b719ccb88e
+# environment
+OLDPWD = /vscode/bin/linux-x64/30d9c6cd9483b2cc586687151bcbcd635f373630
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+DB_PORT = 3306
+# environment
+GITHUB_SERVER_URL = https://github.com
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GITHUB_API_URL = https://api.github.com
+# makefile
+MAKEFLAGS = pqrR
+# environment
+GOLANG_VERSION = 1.18.3
+# makefile
+CURDIR := /workspaces/go-fiber-sqlc
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+GITHUB_USER = dan2k
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SHELL_LOGGED_IN = true
+# environment
+INTERNAL_VSCS_TARGET_URL = https://southeastasia.online.visualstudio.com
+# automatic
+*F = $(notdir $*)
+# environment
+DB_USERNAME = mitsu
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"th-TH","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+GITHUB_TOKEN = ghu_E1tQFt85ZFFMcOp9e5IJuEB2QkFrsx32J3mn
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+DB_CONNECTION = mysql
+# environment
+PATH = /vscode/bin/linux-x64/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+DB_PASSWORD = secret
+# environment
+GIT_COMMITTER_EMAIL = noreply@github.com
+# environment
+CODESPACES = true
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+DB_DATABASE = go_local
+# automatic
++F = $(notdir $+)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = /vscode/bin/linux-x64/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+# environment
+DB_HOST = db
+# makefile
+.DEFAULT_GOAL := migration
+# default
+MAKE_VERSION := 4.3
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+VSCODE_AGENT_FOLDER = /root/.vscode-remote
+# environment
+_ = /bin/cat
+# environment
+CODESPACE_NAME = dan2k-go-fiber-sqlc-r4w9pq7j2565g
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-bc33cf18-156e-4f30-8192-96772ed31159.sock
+# environment
+CLOUDENV_ENVIRONMENT_ID = 4f44227a-d86a-42df-aacc-ab3020240f9c
+# environment
+GITHUB_REPOSITORY = dan2k/go-fiber-sqlc
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /root
+# environment
+GITHUB_GRAPHQL_URL = https://api.github.com/graphql
+# environment
+GITHUB_CODESPACE_TOKEN = ABYJSNQKLZM2TQ2A6VLIKJTCXX4ZLANCNFSM4ABVF2OQ
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+DEBUG = ,vs-ssh
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# variable set hash-table stats:
+# Load=82/1024=8%, Rehash=0, Collisions=2/112=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 1792, inode 1310870): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-30 07:57:10.284858537
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+migration:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 2):
+	@read -p "Enter migration name:" name; \
+		migrate create -ext sql -dir db/migrations -seq $$name 
+
+migrate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	migrate -source file://db/migrations \
+		-database 'mysql://mitsu:secret@tcp(db:3306)/go_local' up
+
+rollback:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	migrate -source file://db/migrations \
+		-database 'mysql://mitsu:secret@tcp(db:3306)/go_local' down
+
+sqlc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	sqlc generate
+
+drop:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	migrate -source file://db/migrations \
+		-database 'mysql://mitsu:secret@tcp(db:3306)/go_local' drop
+
+# files hash-table stats:
+# Load=9/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 164 B / avg = 8 B
+# current buf: size = 8162 B / used = 164 B / count = 20 / avg = 8 B
+
+# strcache performance: lookups = 29 / hit rate = 31%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Thu Jun 30 07:58:24 2022
+
+ 
