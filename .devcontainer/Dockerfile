@@ -1,9 +1,6 @@
 FROM golang:1.18
 
-RUN curl -L https://packagecloud.io/golang-migrate/migrate/gpgkey | apt-key add -
-RUN echo "deb https://packagecloud.io/golang-migrate/migrate/ubuntu/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/migrate.list
-RUN apt-get update
-RUN apt-get install -y migrate
+RUN  apt-get update 
 
 
 ENV GO111MODULE on
@@ -21,4 +18,7 @@ RUN go install github.com/uudashr/gopkgs/v2/cmd/gopkgs@latest && \
   go install golang.org/x/tools/gopls@latest && \
   go install github.com/cosmtrek/air@latest  
 
-   
+RUN curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh |  bash
+RUN apt-get install migrate=4.15.2
+
+
