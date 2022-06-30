@@ -16,7 +16,8 @@ RUN go install github.com/uudashr/gopkgs/v2/cmd/gopkgs@latest && \
   go install github.com/go-delve/delve/cmd/dlv@latest && \
   go install golang.org/x/lint/golint@latest && \
   go install golang.org/x/tools/gopls@latest && \
-  go install github.com/cosmtrek/air@latest  
+  go install github.com/cosmtrek/air@latest  && \
+  go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
 
 RUN curl -s https://packagecloud.io/install/repositories/golang-migrate/migrate/script.deb.sh |  bash
 RUN apt-get install migrate=4.15.2
